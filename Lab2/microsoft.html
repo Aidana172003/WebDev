@@ -1,0 +1,238 @@
+<!--https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/1280px-Microsoft_logo_%282012%29.svg.png-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Microsoft home page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        header {
+            position: absolute;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 100px;
+            padding-bottom: 2px;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        header .items {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 10px 0;
+        }
+        
+        header .items li {
+            list-style: none;
+            margin: 0 10px;
+            letter-spacing: 0.5px;
+        }
+        
+        header .items li a {
+            color: black;
+            text-decoration: none;
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        header .element {
+            color: black;
+            text-decoration: none;
+            font-size: 13px;
+            font-family: Arial, Helvetica, sans-serif;
+            list-style: none;
+            margin: 0 10px;
+            letter-spacing: 0.5px;
+        }
+        
+        header .sel {
+            color: black;
+            text-decoration: none;
+            font-size: 13px;
+            font-family: Arial, Helvetica, sans-serif;
+            border: none;
+            margin: 0 10px;
+            letter-spacing: 0.5px;
+        }
+        
+        #main_page {
+            margin-top: 55px;
+            margin-left: 85px;
+        }
+        
+        .others {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        
+        #micro {
+            margin-top: 45px;
+            margin-left: 90px;
+            margin-right: 10px;
+        }
+        
+        #edge {
+            margin-right: 10px;
+        }
+        
+        #onedrive {
+            margin-right: 10px;
+        }
+        
+        #note {
+            margin-right: 10px;
+        }
+        
+        #first {
+            font-size: 15.5px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 100px;
+            margin-top: 5px;
+        }
+        
+        #m {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 100px;
+            margin-top: 15px;
+        }
+        
+        #link {
+            color: rgb(52, 52, 177);
+            font-size: 17px;
+            margin-top: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        #e {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 50px;
+            margin-top: 10px;
+        }
+        
+        #second {
+            font-size: 15.5px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 50px;
+            margin-top: 5px;
+        }
+        
+        #l2 {
+            color: rgb(52, 52, 177);
+            font-size: 17px;
+            margin-top: 8px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+        #d {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+        
+        #third {
+            font-size: 15px;
+            margin-left: 25px;
+            margin-bottom: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        #l3 {
+            color: rgb(52, 52, 177);
+            font-size: 16px;
+            margin-top: 10px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+        #n {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 50px;
+            margin-top: 10px;
+        }
+        
+        #fourth {
+            font-size: 15px;
+            margin-left: 50px;
+            margin-bottom: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        #l4 {
+            color: rgb(52, 52, 177);
+            font-size: 16px;
+            margin-top: 20px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img id="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/1280px-Microsoft_logo_%282012%29.svg.png" alt="microsoft" width="120px">
+        </div>
+        <ul class="items">
+            <li><a href="#">Microsoft 365</a></li>
+            <li><a href="#">Office</a></li>
+            <li><a href="#">Windows</a></li>
+            <li><a href="#">Поддержка</a></li>
+        </ul>
+        <div>
+            <select class="sel">
+                <option value="v1">Продукты Microsoft</option>
+            </select>
+            <a class="element" href="#">Поиск</a>
+            <img id="find" src="search.png" alt="search_sign" width="20px">
+            <a class="element" href="#">Войти</a>
+            <img id="autosign" src="auto.png" alt="auto_sign" width="35px">
+        </div>
+    </header>
+    <main>
+        <div class="page">
+            <img id="main_page" src="main.png" alt="main page" width="1370px" height="500px">
+        </div>
+        <div class="others">
+            <div class="apps">
+                <img id="micro" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWPGs4?ver=3a6f&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true" alt="365" width="330px">
+                <img id="edge" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4rzE2?ver=aa0b&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true" width="330px">
+                <img id="onedrive" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3hD2k?ver=6539&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true" width="330px">
+                <img id="note" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/REGxSz?ver=5bf8&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true" width="330px">
+            </div>
+            <div class="paragraph1">
+                <h3 id="m">Microsoft 365</h3>
+                <p id="first">Приложения Office премиум-класса,<br> дополнительное облачное хранилище, <br>продвинутые инструменты обеспечения <br>безопасности и многое другое — все в <br>одной удобной подписке.<br><a id="link" href="">Подробнее ></a><br></p>
+            </div>
+            <div class="paragraph2">
+                <h3 id="e">Microsoft Edge</h3>
+                <p id="second">Потрясающая производительность, больше <br>конфиденциальности, продуктивности и <br>дополнительных возможностей.<br><a id="l2" href="#">Скачать ></a></p>
+            </div>
+            <div class="paragraph3">
+                <h3 id="d">Microsoft OneDrive</h3>
+                <p id="third">Сохраняйте свои файлы и фотографии на <br>OneDrive — они будут доступны с любого <br>устройства и где угодно.<br><a id="l3" href="#">Узнать больше ></a></p>
+            </div>
+            <div class="paragraph4">
+                <h3 id="n">OneNote</h3>
+                <p id="fourth">Приведите свои заметки и дела в порядок.<br><a id="l4">Подробнее ></a></p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
